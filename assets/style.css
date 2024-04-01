@@ -164,7 +164,8 @@ body {
   min-width: 320px;
   overflow-x: hidden;
   word-wrap: break-word;
-  background-image: url(https://cdn.discordapp.com/attachments/831823676398764052/985119042681577502/wp2729921-wallpaper-full-hd-gifs-animados.gif);
+  background-color: #202225;
+  /* background-image: url(https://cdn.discordapp.com/attachments/831823676398764052/985119042681577502/wp2729921-wallpaper-full-hd-gifs-animados.gif); */
 }
 
 :root {
@@ -238,6 +239,7 @@ a {
   overflow: hidden;
   position: relative;
   z-index: 2;
+  margin: -3rem;
 }
 
 #main {
@@ -935,6 +937,11 @@ p.style2 span.p:nth-child(n + 2) {
   background-color: #3ba55c;
   color: #ffffff;
 }
+
+#buttons04 .button:hover {
+    background-color: #3fb665;
+    color: #ffffff;
+  }
 
 .buttons.style1 {
   justify-content: flex-start;
